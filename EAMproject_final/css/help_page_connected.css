@@ -1,0 +1,404 @@
+html,body {
+	width:100%;
+	max-width:100%;
+	height: auto;
+	min-height: 100% !important;
+	overflow-x:hidden;
+	background-image: url('../pictures/back4.jpg');
+	background-size: 180%;}
+#upper
+	{position: absolute;
+	 height: 25%;
+	 width: 100%;}
+	   
+#logo
+	{position: relative;
+	 top: 0%;
+	 left: 2%;
+	 width: 17%;
+	 height: 100%;}
+	 
+#suggrammata
+	{position: relative;
+	 top: 0%;
+	 left: 4%;
+	 width: 45%;
+	 height: 45%;}
+	 
+#printer
+	{position: absolute;
+	 top: 0%;
+	 left: 55%;
+	 width: 3.5%;
+	 height: 22%;
+	 margin: 1%}
+	 
+#mail
+	{position: absolute;
+	 top: 0.5%;
+	 left: 60%;
+	 width: 4%;
+	 height: 22%;
+	 margin: 1%;
+	 }
+
+#faq
+	{position: absolute;
+	 top: 0%;
+	 left: 64.5%;
+	 width: 4.5%;
+	 height: 22%;
+	 margin: 1%}
+	 
+#greek
+	{position: absolute;
+	 width: 3%;
+	 height: 18%;
+	 top: 0%;
+	 right: 5%;
+	 margin: 1%;}
+	 
+#english
+	{position: absolute;
+	 width: 3%;
+	 height: 18%;
+	 top: 0%;
+	 right: 1%;
+	 margin: 1%}
+	 
+#info {
+	border: 1px solid orange; 
+	width: 20%; 
+	height: 57%; 
+	position: absolute; 
+	right: 2%; 
+	top: 40%; }
+
+#welcome
+	{position: relative;
+	 text-align: center;
+	 top:5%;
+	}
+		 
+	 
+#submit2
+	{position: absolute;
+	 width: 14%;
+	 top: 110%;
+	 right: 3%}
+	   
+#main
+	{position: absolute;
+	 left: 5%;
+	 top: 37%;
+	 height:55%;
+	 width: 93%}
+
+#menuhorizontal, #submenu
+{ 
+	list-style-type: none;
+	position: absolute;
+	top: 0%;
+	font-style: normal;
+	font-size: 20px;
+	text-align: left;
+}
+	 
+#submenu
+{
+	display: none;
+	position: absolute;
+	top:100%;
+	left:40%;
+	z-index: 2;
+	border: 3px solid #FFDEAD;
+	background-color: #EFFBFB;
+	width: 480px;
+	border-radius: 20px;
+}
+
+#sub_submenu1,#sub_submenu2,#sub_submenu3,#sub_submenu4,#sub_submenu5
+{
+	display: none;
+	position: absolute;
+	top:100%;
+	left:0%;
+	border: 3px solid #FFDEAD;
+	background-color: #EFFBFB;
+	width: 150px;
+	border-radius: 20px;
+}
+
+	 
+.submenu1
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-right: 1px solid #FFDEAD;
+	z-index: 100;
+	width: 200px;
+	position: relative;
+	text-align: center;
+}
+
+.sub_submenu
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid #FFDEAD;
+	width: 150px;
+	position: relative;
+	text-align: center;
+}
+	 
+.tdhorizontalbig
+{
+	float:left; 
+	padding-bottom: 2px;
+	display: inline;
+	width: 300px;
+}
+	
+.tdhorizontalsmall
+{
+	float:left; 
+	padding-bottom: 2px;
+	display: inline;
+	width: 110px;
+}
+	 
+.selected 
+{
+	border: 1px solid #013ADF;
+	border-radius: 20px;
+	background-color: #FFDEAD;
+	padding: 5px;
+	font-weight:bold;
+	color: black;
+}
+
+.non-selected {
+	color: black;
+	text-decoration: none;
+ }
+	 
+a.non-selected:hover , td.submenu1:hover {
+	border: 1px solid #013ADF;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #cc6600;
+}
+a.selected:hover {
+	cursor: default;
+}
+
+.sub_non-selected{
+	color:black;
+	}
+	
+.sub_non-selected:hover{
+	color: #cc6600;
+}
+
+
+
+	 
+.search_field {
+	position: absolute;
+	 top: 5%;
+	 right: 0%;
+	 border: 1px solid black;
+	 width: 180px;
+}
+
+.search_field input {
+    border: none;
+    padding: 0;
+	color: grey;
+	vertical-align: middle;
+}
+
+
+.search_field img {
+	 height: 20px;
+	 width: 20px;
+	 vertical-align: middle;
+}	 
+	 
+#menuvertical
+	{
+	 position: absolute;
+	 font-style:normal;
+	 top: 30%;
+	 width: 20%;
+	 border: 3px solid black;
+	 text-align: center;
+	 vertical-align: middle;
+	 font-size: large;
+	 padding: 2px;
+	 background-color: #0404B4;
+	 border-radius: 20px;
+	 height: 113%;
+	 }
+	 	
+	
+.cell
+	{display:block;
+	 line-height: 70px;
+	 text-decoration:none;
+	 background-color: #FFDEAD;
+	 color: black;
+	 width:100%;
+	 height:100%;
+	}
+	
+#navbar
+	{position:absolute;
+	 top:20%;
+	 left:24%;
+	 font-style:normal;
+	 color: #cc6600;
+	}
+	
+#profile_button
+{
+	position:absolute;
+	top: 16%;
+	left: 5%;
+	height:10%;
+	width: 10%;
+	border: 2px solid orange;
+}	
+	
+#right {
+	border: 3px solid black;
+	border-radius: 20px;
+	position: absolute;
+	width: 72%;
+	height: 113%;
+	top: 30%;
+	left: 24%;
+	font-style: normal;
+	background-color: #D8D8D8;
+	}	
+	 
+#help_window{
+	position: absolute;
+	width: 30%;
+	height:	93%;
+	right: 68%;
+	top: 3%;
+	list-style-type: none;
+}
+
+#help_window li{
+	!border: 1px solid #013ADF;
+	border: 1px solid #FFDEAD;
+	border-radius: 15px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 12%;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	opacity: 0.8;
+	!background-color: #FFDEAD;
+	background-color: #EFFBFB;
+}
+
+#help_window li:hover{
+	cursor: pointer;
+}
+
+#help_window_content{
+	!border: 1px solid #013ADF;
+	border: 1px solid #FFDEAD;
+	border-radius: 5%;
+	position: absolute;
+	height: 95%;
+	width: 65.5%;
+	right: 2%;
+	top: 2%;
+	list-style-type: none;
+	!background-color: #FFDEAD;
+	background-color: #EFFBFB;
+}
+
+.other{
+	display: none;
+}
+
+.inside_window{
+	position: absolute;
+	left:5%;
+	!top:10%;
+	width: 90%;
+	height: 85%;
+	overflow-y: scroll;
+}
+
+#first_window, #sixth_window{
+	!overflow-y: scroll;
+}
+	 
+#seperate
+	{position:absolute;
+	 top: 125%;
+	 width: 100%;
+	 }
+	
+#bottom
+	{position: absolute;
+	height: 15%;
+	width: 100%;
+	 top: 127%;
+	 clear:none;
+	 font-style: normal;
+	 font-weight: bold;}
+	 
+#ypourgeio
+	{position: absolute;
+	 left: 1%;
+	 height:50%;
+	 width: 28%;
+	 margin: 1%}
+	
+#grnet
+	{position: absolute;
+	 left: 31%;
+	 height:50%;
+	 width: 15%;
+	 margin: 1%;}
+
+#eu	 
+	 {position: absolute;
+	 left: 49%;
+	 height:50%;
+	 width: 17%;
+	 margin: 1%}
+	 
+#digitalgreece	 
+	 {position: absolute;
+	 left: 69%;
+	 width: 15%;
+	 height:50%;
+	 margin: 1%;}
+	 
+#espa 
+	 {position: absolute;
+	 left: 86%;
+	 width: 8%;
+	 margin: 1%;
+	 height:50%;}
+	 
+#credits
+	{position: absolute;
+   text-align: center;
+   width: 100%;}
+   
+button:hover{
+	cursor: pointer;
+}

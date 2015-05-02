@@ -1,0 +1,218 @@
+body {
+    color: #484A4C;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.25;
+}
+
+body {
+    overflow-y: auto;
+}
+
+#upper
+	{position: absolute;
+	 height: 25%;
+	 width: 100%;}
+	   
+#logo
+	{position: relative;
+	 top: 0%;
+	 left: 2%;
+	 width: 17%;
+	 height: 100%;}
+	 
+#suggrammata
+	{position: relative;
+	 top: 0%;
+	 left: 4%;
+	 width: 45%;
+	 height: 45%;}
+	 
+#printer
+	{position: absolute;
+	 top: 0%;
+	 left: 55%;
+	 width: 3.5%;
+	 height: 22%;
+	 margin: 1%}
+	 
+#mail
+	{position: absolute;
+	 top: 0.5%;
+	 left: 60%;
+	 width: 4%;
+	 height: 22%;
+	 margin: 1%;
+	 }
+
+#faq
+	{position: absolute;
+	 top: 0%;
+	 left: 64.5%;
+	 width: 4.5%;
+	 height: 22%;
+	 margin: 1%}
+	 
+#greek
+	{position: absolute;
+	 width: 3%;
+	 height: 18%;
+	 top: 0%;
+	 right: 5%;
+	 margin: 1%;}
+	 
+#english
+	{position: absolute;
+	 width: 3%;
+	 height: 18%;
+	 top: 0%;
+	 right: 1%;
+	 margin: 1%}
+	 
+.button{
+	position: absolute;
+	left: 10%;}
+
+#background {
+	/*position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;*/
+	position:relative;
+	margin:0 auto;
+	
+}
+
+#page_main {
+    position: absolute;
+    top: 27%;
+	width:100%;
+}
+
+/* LOGOS */
+#seperate {
+	position:absolute; 
+	top: 90%; 
+	width: 100%; 
+} 
+
+#bottom {
+	position: absolute; 
+	height: 15%; 
+	width: 100%; 
+	top: 93%; 
+	clear:none; 
+	font-style: normal; 
+	font-weight: bold;
+} 
+
+#ypourgeio {
+	position: absolute; 
+	left: 1%; 
+	height:50%; 
+	width: 28%; 
+	margin: 1%;
+} 
+
+#grnet {
+	position: absolute; 
+	left: 31%; 
+	height:50%; 
+	width: 15%; 
+	margin: 1%;
+} 
+
+#eu {
+	position: absolute; 
+	left: 49%;
+	height:50%; 
+	width: 17%; 
+	margin: 1%
+}
+
+ #digitalgreece {
+	position: absolute; 
+	left: 69%; 
+	width: 15%; 
+	height:50%; 
+	margin: 1%;
+} 
+
+#espa {
+	position: absolute; 
+	left: 86%; 
+	width: 8%; 
+	margin: 1%; 
+	height:50%;
+}
+
+#credits {
+	position: absolute; 
+	text-align: center; 
+	width: 100%;
+}
+
+
+.background_main {
+	background: url("../pictures/background-main.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ .down_page{
+    /*bottom: 52%;
+	left: 14%;
+	right: auto;
+	top: 6%;*/
+	position: relative;
+	top: 67px;
+	margin-left: 7%;
+}
+
+.fields {
+	/*width: 207px;*/
+}
+
+.button[type=submit] {
+	position: relative;
+	top: 20px;
+	margin-left: 33%;
+}
+
+ .up_page{
+	/*bottom: 52%;
+	left: 14%;
+	right: auto;
+	top: 6%;*/
+	position: relative;
+}
+
+ .panel.down{
+	bottom: 52%;
+	left: 14%;
+	right: auto;
+	top: 6%;
+	position: absolute;
+}
+
+.down {
+	width: 210px;
+	border: 3px solid #E2E2E0;
+	padding: 1px;
+	margin: -27px 8px -1px;
+}
+
+.temp {
+	position:relative;
+	float: right;
+}
+
+.lezanta {
+	position:relative;
+	float: left;
+	margin: 5px 0 0 0;
+}
+

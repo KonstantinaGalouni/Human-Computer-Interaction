@@ -1,0 +1,24 @@
+ID#Name#Year#Mathima
+inc#str#inc#str
+###
+1#programmatismos#1#Εισαγωγή στον Προγραμματισμό
+2#theoria_upologismou#1#Θεωρία Υπολογισμού
+3#grammiki_algeura#1#Γραμμική 'Αλγεβρα
+4#logiki_sxediasi#1#Λογική Σχεδίαση
+5#Analisi_1#1#Ανάλυση Ι
+6#diktia_1#2#Δίκτυα Ι
+7#Analisi_2#2#Ανάλυση ΙΙ
+8#Antikimenostrafis#2#Αντικειμενοστραφής Προγραμματισμός
+9#Pithanotites#2#Πιθανότητες
+10#texniti_noimosini#3#Τεχνιτή Νοημοσύνη
+11#Arxitektoniki_2#3#Αρχιτεκτονική Υπολογιστων ΙΙ
+12#Grafika_1#3#Γραφικά Ι
+13#Simata_II#3#Σήματα ΙΙ
+15#Syspro#3#Προγραμματισμός Συστήματος
+16#Leitourgika#3#Λειτουργικά Συστήματα
+17#Ptixiaki#4#Πτυχιακή Εργασία
+18#diktia_2#4#Δίκτυα ΙΙ
+19#mithe_1#5#Ελεύθερο 1
+20#mithe_2#5#Ελεύθερο 2
+21#mithe_3#5#Ελεύθερο 3
+22#mithe_4#5#Ελεύθερο 4
